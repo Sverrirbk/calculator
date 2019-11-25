@@ -10,10 +10,12 @@ Make functions for number buttons: DONE
 Make functions for operator buttons: DONE
 Make display: DONE
 Make display show current equations and running total: DONE
-Make decimals work: DONE
+Make long equations always work: DONE
+Multiple operators: DONE
+Double equals: DONE
 
-Make long equations always work
-Make ERROR checks for wrong input (multiple operators, double equals, multiple decimal points )
+Make decimals work: Not done
+Make ERROR checks for wrong input (multiple decimal points )
 Add CSS
 Make backspace button
 Make power button

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+    <section id="display">
+        <div id="secondaryDisplay"></div>
+        <div id="mainDisplay">
+          <p id="mainDisplay1"></p>
+          <p id="mainDisplay2"></p>
+        </div>
+    </section>
+    
+    <section id="leftSide">
+        <button class= "numberButtons" id="numberOne" onclick="numberPress(this)">1
+        </button>
+        <button class= "numberButtons" id="numberTwo" onclick="numberPress(this)">2
+        </button>
+        <button class= "numberButtons" id="numberThree" onclick="numberPress(this)">3
+        </button>
+        <button class= "numberButtons" id="numberFour" onclick="numberPress(this)">4
+        </button>
+        <button class= "numberButtons" id="numberFive" onclick="numberPress(this)">5
+        </button>
+        <button class= "numberButtons" id="numberSix" onclick="numberPress(this)">6
+        </button>
+        <button class= "numberButtons" id="numberSeven" onclick="numberPress(this)">7
+        </button>
+        <button class= "numberButtons" id="numberEight" onclick="numberPress(this)">8
+        </button>
+        <button class= "numberButtons" id="numberNine" onclick="numberPress(this)">9
+        </button>
+        <button class= "numberButtons" id="numberZero" onclick="numberPress(this)">0
+        </button>
+        <button class= "numberButtons" id="decimalPoint" onclick="numberPress(this)">.
+            </button>
+    </section>
+    <section id="rightSide">
+        <button id="clearBtn" onclick="clearPress(this)">C
+        </button>
+        <button class="actionBtn" id="divideBtn" onclick="operatorPress(this)">/
+        </button>
+        <button class="actionBtn" id="multiplyBtn" onclick="operatorPress(this)">*
+        </button>
+        <button class="actionBtn" id="subtractBtn" onclick="operatorPress(this)">-
+        </button>
+        <button class="actionBtn" id="sumBtn" onclick="operatorPress(this)">+
+        </button>
+        <button class="actionBtn" id="equalsBtn" onclick="equalsPress(this)">=
+        </button>   
+    </section>
+    
+
+  </body>
+  <script src="script.js"></script>
+</html>

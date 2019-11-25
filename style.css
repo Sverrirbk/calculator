@@ -1,0 +1,21 @@
+#display {
+    display: block;
+    width: 20em;
+    border: 1px solid black;
+    text-align: right;
+}
+
+#mainDisplay {
+    height: 5em;
+    border: 0.1em solid black;
+}
+
+#mainDisplay1, #mainDisplay2 {
+    height: 1em;
+}
+
+
+#secondaryDisplay {
+    height: 3em;
+    border: 0.1em solid black;
+}

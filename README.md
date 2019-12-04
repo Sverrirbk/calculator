@@ -13,10 +13,10 @@ Make display show current equations and running total: DONE
 Make long equations always work: DONE
 Multiple operators: DONE
 Double equals: DONE
+Add CSS: DONE
 
 Make decimals work: Not done
 Make ERROR checks for wrong input (multiple decimal points )
-Add CSS
 Make backspace button
 Make power button
 Make square button
